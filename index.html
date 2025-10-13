@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Modern Registration Form</h1>
+      </header>
+
+      <form action="">
+        <h1 class="form-header">Student Registration Form</h1>
+
+        <!-- names -->
+        <div class="box">
+          <div class="field">
+            <label> First Name</label>
+            <input  type="text" id="field-inputs" placeholder="Enter first name" />
+          </div>
+
+          <div class="field">
+            <label> Last Name</label>
+            <input type="text" id="field-inputs" placeholder="Enter last name" />
+          </div>
+        </div>
+
+        <!-- DOB -->
+        <div class="box">
+          <div class="field">
+            <label> Date of Birth</label>
+            <div class="select-field">
+              <select>
+                <option>Day</option>
+              </select>
+              <select>
+                <option>Month</option>
+              </select>
+              <select>
+                <option>Year</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Email and number -->
+        <div class="box">
+          <!-- email -->
+          <div class="field">
+            <label> Email</label>
+            <input type="email" id="field-inputs" placeholder="Enter first name" />
+          </div>
+
+          <!-- Number -->
+          <div class="field">
+            <label> Mobile Number</label>
+            <input
+              type="tel"
+              maxlength="10"
+              id="field-inputs"
+              placeholder="Enter last name"
+            />
+          </div>
+        </div>
+
+        <!-- Gender-->
+        <div class="field">
+          <label> Gender</label>
+          <div class="gender-field">
+            <label> <input type="radio" name="gender" /> Male </label>
+            <label> <input type="radio" name="gender" /> Female </label>
+          </div>
+        </div>
+
+        <!-- Address -->
+         <div class="box">
+           <div class="field">
+             <label> Address</label>
+             <textarea class="address" rows="5" placeholder="Enter your address"></textarea>
+           </div>
+
+         </div>
+
+        <!-- City / PIN / State -->
+         <div class="box">
+          <!-- City -->
+          <div class="field">
+            <label>City</label>
+            <input id="field-inputs" type="text" placeholder="Enter city" />
+          </div>
+
+          <!-- PIN -->
+           <div class="field">
+           <label>PIN Code</label>
+            <input id="field-inputs" type="tel" maxlength="6" placeholder="Enter 6-digit PIN code" />
+        </div>
+
+        <!-- state -->
+          <div class="field">
+            <label>State</label>
+            <input id="field-inputs" type="text" placeholder="Enter state" />
+          </div>
+        </div>
+
+        <!-- country -->
+         <div class="box">
+         <div class="field">
+            <label>Country</label>
+            <div class="select-field">
+              <select>
+                <option>Select Country</option>
+              </select>
+            </div>
+           </div>
+          </div>
+
+
+        <!-- Hobbies  -->
+          <div class="field">
+          <label> Hobbies</label>
+          <div class="Hobbies-fields">
+              <label><input type="checkbox" /> Drawing</label>
+              <label><input type="checkbox" /> Singing</label>
+              <label><input type="checkbox" /> Dancing</label>
+              <label><input type="checkbox" /> Sketching</label>
+              <label><input type="checkbox" /> Others</label>
+              
+          </div>
+        </div>
+
+
+        <!-- qualification table -->
+         <div class="box">
+         <div class="field table-field">
+          <label >Qualification</label>
+          <table class="table">
+            <tr>
+              <th>Sr.No</th>
+              <th>Examination</th>
+              <th>Board</th>
+              <th>Percentage</th>
+              <th>Year of Passing</th>
+            </tr>
+
+
+            <tr>
+              <td>1</td>
+              <td>Class X</td>
+              <td><input id="field-inputs" type="text"  /></td>
+              <td><input id="field-inputs" type="text" /></td>
+              <td><input id="field-inputs" type="text" /></td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Class Xll</td>
+              <td><input id="field-inputs" type="text"  /></td>
+              <td><input id="field-inputs" type="text" /></td>
+              <td><input id="field-inputs" type="text" /></td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Graduation</td>
+              <td><input id="field-inputs" type="text"  /></td>
+              <td><input id="field-inputs" type="text" /></td>
+              <td><input id="field-inputs" type="text" /></td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Masters</td>
+              <td><input id="field-inputs" type="text"  /></td>
+              <td><input id="field-inputs" type="text" /></td>
+              <td><input id="field-inputs" type="text" /></td>
+            </tr>
+
+
+          </table>
+          </div>
+          </div>
+
+
+          <!-- Courses  -->
+          <div class="field">
+          <label> Courses Applied For</label>
+          <div class="Courses-fields">
+            <label class="small"><input type="radio" name="course"> BCA</label>
+            <label class="small"><input type="radio" name="course"> B.Com</label>
+            <label class="small"><input type="radio" name="course"> B.Sc</label>
+            <label class="small"><input type="radio" name="course"> B.A</label>
+              
+          </div>
+        </div>
+
+        <div class="line"> </div>
+
+         <!-- Buttons -->
+        <div class="Buttons">
+          <button class="reset-btn">Reset</button>
+          <button class="sbSubmit-btn">Submit</button>
+        </div>
+
+
+
+
+
+      </form>
+
+       <footer>
+        <h1>Professional Registration Form</h1>
+      </footer>
+    </div>
+  </body>
+</html>
